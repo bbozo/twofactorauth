@@ -1,10 +1,17 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 
-# Freeze to GitHub Pages versions:
-#   https://pages.github.com/versions/
-gem 'github-pages', '~> 28'
-gem 'jekyll', '~> 2.4.0'
-gem 'kramdown', '~> 1.3.1'
-gem 'rake'
+# Dependencies are bundled with the github-pages gem
+gem 'github-pages', group: :jekyll_plugins
 
-gem 'fastimage', require: false
+group :test do
+  gem 'diff-lcs', platforms: :mswin
+  gem 'diffy'
+  gem 'fastimage'
+  gem 'html-proofer'
+  gem 'jsonlint'
+  gem 'kwalify'
+  gem 'rake'
+  gem 'rubocop'
+end

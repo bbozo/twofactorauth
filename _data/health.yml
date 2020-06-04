@@ -1,8 +1,32 @@
 websites:
     - name: 23andMe
-      url: http://www.23andme.com
-      twitter: 23andMe
+      url: https://www.23andme.com/
       img: 23andme.png
+      tfa: No
+      twitter: 23andMesupport
+      facebook: 23andMe
+      email_address: customercare@23andme.com
+
+    - name: Carilion Clinic
+      url: https://www.carilionclinic.org
+      img: carilionclinic.png
+      tfa: No
+      twitter: CarilionClinic
+      facebook: carilionclinic
+      email_address: direct@carilionclinic.org
+
+    - name: Cigna
+      url: https://my.cigna.com
+      img: cigna.png
+      tfa: Yes
+      sms: Yes
+      email: Yes
+
+    - name: CVS Caremark
+      url: https://www.caremark.com
+      twitter: CVSHealth
+      facebook: CVS
+      img: cvscaremark.png
       tfa: No
 
     - name: drchrono
@@ -10,26 +34,70 @@ websites:
       img: drchrono.png
       tfa: Yes
       software: Yes
+      hardware: Yes
+      otp: Yes
       doc: https://www.drchrono.com/blog/two-factor-authentication-extra-security-for-your-health-records/
 
     - name: Drugs.com
-      url: http://www.drugs.com
-      twitter: DrugsCom
+      url: https://www.drugs.com/
+      twitter: Drugscom
+      facebook: Drugscom
       img: drugscom.png
       tfa: No
       status: https://twitter.com/Drugscom/status/493856207572975620
 
+    - name: Elation Health
+      url: https://www.elationhealth.com/
+      twitter: ElationHealth
+      facebook: ElationHealth
+      img: elationhealth.png
+      tfa: No
+
+    - name: Endomondo
+      url: https://www.endomondo.com
+      twitter: Endomondo
+      facebook: endomondo
+      email_address: support@endomondo.com
+      img: endomondo.png
+      tfa: No
+
     - name: FitBit
-      url: http://www.fitbit.com
+      url: https://www.fitbit.com/
       twitter: fitbit
+      facebook: fitbit
       img: fitbit.png
       tfa: No
 
-    - name: Healthcare.gov
-      url: http://healthcare.gov
-      twitter: HealthCareGov
-      img: healthcaregov.png
+    - name: FollowMyHealth
+      url: https://www.followmyhealth.com/
+      img: followmyhealth.png
+      tfa: Yes
+      sms: Yes
+      email: Yes
+      software: Yes
+      hardware: Yes
+      otp: Yes
+      doc: http://support.followmyhealth.com/customer/portal/articles/1309938
+
+    - name: Garmin
+      url: https://www.garmin.com/
+      twitter: Garmin
+      facebook: Garmin
+      img: garmin.png
       tfa: No
+
+    - name: Google Fit
+      url: https://fit.google.com
+      img: googlefit.png
+      tfa: Yes
+      sms: Yes
+      phone: Yes
+      hardware: Yes
+      otp: Yes
+      u2f: Yes
+      multipleu2f: Yes
+      software: Yes
+      doc: https://www.google.com/intl/en-US/landing/2step/features.html
 
     - name: HealthVault (w/Microsoft Account)
       url: https://www.healthvault.com
@@ -37,22 +105,90 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
-      doc: http://windows.microsoft.com/en-au/windows/two-step-verification-faq
+      hardware: Yes
+      otp: Yes
+      doc: https://support.microsoft.com/en-us/help/12408/
 
-    - name: myfitnesspal
-      url: http://www.myfitnesspal.com
-      twitter: myfitnesspal
-      img: myfitnesspal.png
+    - name: Hint Health
+      url: https://www.hint.com
+      img: hint.png
+      tfa: No
+      twitter: HintHealth
+      facebook: hinthealth
+
+    - name: MedicAlert
+      url: https://www.medicalert.ca
+      img: medicalert.png
+      twitter: MedicAlertCA
       tfa: No
 
+    - name: Misfit
+      url: https://misfit.com/
+      twitter: Misfit
+      img: misfit.png
+      tfa: No
+
+    - name: myfitnesspal
+      url: https://www.myfitnesspal.com
+      img: myfitnesspal.png
+      tfa: No
+      twitter: MyFitnessPal
+      facebook: myfitnesspal
+      email_address: support@myfitnesspal.com
+
+    - name: Runkeeper
+      url: https://runkeeper.com
+      twitter: RKSupport
+      facebook: Runkeeper
+      email_address: support@runkeeper.com
+      img: runkeeper.png
+      tfa: No
+
+    - name: RunSignUp
+      url: https://runsignup.com/
+      img: runsignup.png
+      tfa: Yes
+      software: Yes
+
+    - name: Runtastic
+      url: https://www.runtastic.com
+      twitter: Runtastic
+      facebook: runtastic
+      img: runtastic.png
+      tfa: No
+
+    - name: Strava
+      url: https://www.strava.com
+      twitter: Strava
+      facebook: Strava
+      img: strava.png
+      tfa: No
+
+    - name: Thriva
+      url: https://thriva.co
+      img: thriva.png
+      tfa: No
+      twitter: thrivahealth
+      facebook: thriva
+      email_address: support@thriva.co
+
     - name: WebMD
-      url: http://www.webmd.com
+      url: https://www.webmd.com
       twitter: WebMD
+      facebook: WebMD
       img: webmd.png
       tfa: No
 
     - name: Withings
-      url: http://www.withings.com
-      twitter: Withings
+      url: https://www.withings.com/
+      twitter: AskWithings
+      facebook: withings
       img: withings.png
+      tfa: No
+
+    - name: ZocDoc
+      url: https://www.zocdoc.com/
+      twitter: Zocdoc
+      facebook: ZocDoc
+      img: zocdoc.png
       tfa: No

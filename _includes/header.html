@@ -1,56 +1,29 @@
-<div class="ui inverted teal main menu">
-    <div class="menu">
-        <div class="right menu">
-            <a href="{{ site.repo }}" class="item">
-                <i class="github icon"></i>
-                Contribute
-            </a>
-        </div>
-
-    {% if include.page == 'home' %}
-        <a href="/" class="active item">
+<div class="ui teal inverted menu">
+  {% if include.page == 'home' %}
+  <a href="/" class="active item">
     {% else %}
-        <a href="/" class="item">
-    {% endif %}
-            <i class="home icon"></i>
-            Home
-        </a>
+    <a href="/" class="item">
+      {% endif %}
+      <i class="home icon"></i>
+      Home
+    </a>
 
-    {% if include.page == 'home' %}
-        <div class="ui dropdown item">
-            Categories <i class="dropdown icon"></i>
-            <div class="menu">
-                {% for section in site.data.devices.main.sections %}
-                <a href="#{{ section.id }}" class="item">
-                    <i class="{{ section.icon }} icon"></i>
-                    {{ section.title }}
-                </a>
-                {% endfor %}
-            </div>
-        </div>
-    {% endif %}
-
-    {% if include.page == 'providers' %}
-        <a href="/providers" class="active item">
+    {% if include.page == 'dongles' %}
+        <a href="/dongles" class="active item">
     {% else %}
-        <a href="/providers" class="item">
+        <a href="/dongles" class="item">
     {% endif %}
             <i class="play sign icon"></i>
             Dongles
         </a>
-
-
-{% if 1 == 0 %}
-<!-- Don't show for right now -->
-    {% if include.page == 'restrictions' %}
-        <a href="/restrictions" class="active item">
-    {% else %}
-        <a href="/restrictions" class="item">
-    {% endif %}
-            <i class="warning icon"></i>
-            Restrictions
+        <a href="https://www.nitrokey.com" class="item sponsored">
+          Sponsored By:
         </a>
-{% endif %}
 
+    <div class="right menu">
+      <a href="{{ site.repo }}" class="item">
+        <i class="github alternate icon"></i>
+        Contribute
+      </a>
     </div>
 </div>
